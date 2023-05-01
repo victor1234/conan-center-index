@@ -8,7 +8,7 @@ from conan.tools.cmake import CMake, CMakeDeps, CMakeToolchain, cmake_layout
 from conan.tools.env import VirtualBuildEnv
 import os
 
-required_conan_version = ">=1.53.0"
+required_conan_version = ">=1.59.0"
 
 
 class PackageConan(ConanFile):
@@ -18,7 +18,7 @@ class PackageConan(ConanFile):
     # In case not listed there, use "LicenseRef-<license-file-name>"
     license = "BSD-3"
     url = "https://github.com/conan-io/conan-center-index"
-    homepage = "http://fpzip.llnl.gov/"
+    homepage = "https://fpzip.llnl.gov/"
     topics = ("compression", "cpp", "data-viz", "floating-point")
     package_type = "library"
     settings = "os", "arch", "compiler", "build_type"
